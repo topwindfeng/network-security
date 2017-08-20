@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1480972428 source:/home/zyn1018/Documents/CNT project/main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<string>
+

@@ -1,0 +1,31 @@
+Doctor1: 
+Name: Alice
+DocID: 85919234
+Password: password
+Age: 23
+Sex: F
+Authority: 1
+Workplace: UF
+
+
+Doctor2: 
+Name: Bob
+DocID: 87818979
+Password: Bob1018
+Age: 28
+Sex: M
+Authority: 2
+Workplace: PSU
+
+
+Doctor3: 
+Name: Chris
+DocID: 65492156
+Password: Chrishandsome
+Age: 35
+Sex: M
+Authority: 3
+Workplace: UCLA
+
+(Authority 1 = Primary Doctor, 2 = Secondary Doctor, 3 = Unauthorized)
+

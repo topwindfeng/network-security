@@ -1,0 +1,4 @@
+If a doctor requests to access patients' data, the system needs to check out what authority the doctor has.
+1. Fill out three request forms(RequestID, RequestPassword, RequestWorkplace).
+2. Launch Run. If the Doctor is not registered or the given information is wrong, Nothing shows up. If information is correct, the program will output 2 files. One is file Authority indicating the doctor's authority(1 = Primary Doctor, 2 = Secondary Doctor, 3 = Unauthorized). Another is file ID contains Doctor's ID.
+3. If three request forms are modified, you need to relaunch Run to regenerate the corresponding outputs(Authority, ID). 

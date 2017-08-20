@@ -1,0 +1,11 @@
+The program is for embed and detect watermark into and from documents.
+The makefile is included.Before running, the program should make first.
+Command line : ./DigWatermark Operation Method 
+               Operation : Either -emb or -det to specify embedding watermark or detecting watermark.
+	       Method : Either cod or sem to specify the method of watermark
+Example : ./DigWatermark -emb cod
+Notes: 1.The ID file is the watermark that will be embeded into the document.It contains a integer which represent the doctor's ID.
+	2.The Data file is the document that the watermark will be embeded into.
+	3.The program will produce a file named "Data(Watermarked)" that's the document with watermark.
+	4.The recID file is used to record all the doctors' ID that have been used as watermark.
+	5.Two methods of watermark represent Format-based algorithm and Semantics-based algorithm.
