@@ -1,0 +1,170 @@
+p1
+/* test param dec */
+/*
+integer int1, integer int1,
+*/
+integer int1,
+integer int2,
+url url1,
+url url2,
+file file1,
+file file2,
+boolean bool1,
+boolean bool2
+{
+/* test declaration of identifier in the same scope */
+/*
+file file3
+url url3
+*/
+integer int1
+integer int3
+integer int4
+integer p1
+boolean bool3
+image image1
+image image2
+frame frame1
+frame frame2
+
+/* test sleep statement */
+/*
+sleep int1 >= 20;
+*/
+sleep int1;
+sleep 10;
+sleep int1 * 2 + 3;
+sleep (int1 * 50 / 5) + (int1 + int2 - 50);
+
+/* test assignment statement */
+/*
+int1 <- true;
+bool1 <- int1 + 2;
+*/
+int1 <- 10;
+int1 <- (2 + 3 * int2) * (int1 - int3 / 5) * (((int3 + 5) * 12 + 6) + (int1 - int2));
+bool1 <- true;
+bool1 <- int1 > 30 + 5 * (int1 / 6);
+bool1 <- (int1 * int2) == ((int1 + 5) * (int2 / 4));
+bool1 <- 3 < 5;
+url1 <- url2;
+file1 <- file2;
+image1 <- image2;
+frame1 <- frame2;
+
+/* test chain */
+/*
+url1 -> hide;
+image2 -> file1 -> image1;
+image1 -> move (10);
+image1 -> move (10, 20);
+frame1 -> move (10, 20, 30);
+frame1 -> move (1, true);
+int1 -> image1;
+frame1 -> xloc -> image1;
+frame1 -> scale (3);
+image1 -> hide;
+image1 -> width -> image2;
+image1 -> url1 -> width -> frame1;
+url1 |-> file1;
+image1 |-> width;
+*/
+url1 -> image1;
+url1 -> image1 -> file1;
+file1 -> image1 |-> convolve -> blur -> frame1 -> show -> hide -> move (10, 20);
+frame1 -> move (10, int1 + int2 + 50 * int3);
+image1 -> scale (int1 + 5);
+file1 -> blur;
+image1 -> blur;
+image1 |-> gray;
+image1 |-> convolve;
+image1 -> int1;
+image1 -> bool1;
+image1 -> url1;
+frame1 -> xloc;
+frame2 -> yloc;
+
+image1 -> width;
+image2 -> height;
+image1 -> frame1 -> show;
+image1 -> file1;
+image1 -> int1;
+image1 -> bool1;
+image1 -> image2;
+
+
+
+
+/* test if and while statement */
+if (file1 == file2) {
+	integer int1
+	integer int2
+	integer int5
+
+	int3 <- 10 + 3;
+	bool2 <- int1 < int2;
+
+	while (bool2) {
+		integer int1001
+		frame frame1001
+		integer int1
+		int8 <- 50;
+		integer int8
+
+		int1001 <- int1;
+		frame1001 <- frame1;
+	}
+	
+	int1 <- 1;
+
+	if (int1 >= int2) {
+		int5 <- int5 + int1;
+		
+		while (int5 != 0) {
+			boolean bool2001
+			bool2001 <- int4 > int5;
+		}
+	}
+}
+
+int8 <- int3;
+
+while (false == false) {
+	integer int1
+	image image3
+	image3 <- image1 + image2;
+	image3 <- image1 - image2;
+	image3 <- 5 * image1;
+	
+	if (url1 != url2) {
+
+		int1 <- int1 + screenwidth;
+
+	}
+}
+
+int8 <- 10 + 20;
+
+integer int8
+
+
+
+
+
+
+if ((int1 * (1 + int2)) > (int3 / int4)) {
+	while (bool1) {
+		int1 <- 4;
+	}
+	if (int1 < 10) {
+
+	}
+}
+
+
+
+
+
+
+
+}
